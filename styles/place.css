@@ -1,0 +1,57 @@
+:root {
+    --primary: #008751;
+    --secondary: #ffffff;
+    --accent: #006b3f;
+    --text: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: var(--text);
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather-icon {
+    width: 50px;
+    margin: .5rem 0;
+}
+
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

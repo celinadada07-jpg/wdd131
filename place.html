@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Nigeria">
+    <meta name="author" content="Celina Gomba">
+
+    <title>Nigeria</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Nigeria</h1>
+</header>
+
+<main>
+
+    <div class="hero">
+
+         <picture>
+        <source srcset="images/nigeria.jpg" media="(min-width:800px)">
+        <img src="images/nigeria.jpg" alt="Beautiful scenery of Nigeria">
+    </picture>
+
+        <section class="content">
+
+            <div class="card data">
+                <h2>Data</h2>
+
+                <p><strong>Area:</strong> 923,768 km²</p>
+                <p><strong>Population:</strong> 230 Million</p>
+                <p><strong>Capital:</strong> Abuja</p>
+                <p><strong>Languages:</strong> English</p>
+                <p><strong>Currency:</strong> Naira</p>
+                <p><strong>Time Zone:</strong> UTC+1</p>
+                <p><strong>Calling Code:</strong> +234</p>
+                <p><strong>Internet TLD:</strong> .ng</p>
+            </div>
+
+            <div class="card weather">
+
+                <h2>Weather</h2>
+
+                <img src="images/weather.jpg
+                " alt="Weather Icon" class="weather-icon">
+
+                <p><strong>Temperature:</strong> <span id="temp">8</span> °C</p>
+                <p><strong>Conditions:</strong> Partly Cloudy</p>
+                <p><strong>Wind:</strong> <span id="wind">10</span> km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>© <span id="year"></span> 🌍 Celina Gomba 🌍 Nigeria</p>
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
