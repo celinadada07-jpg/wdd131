@@ -47,6 +47,7 @@ header {
 .weather-icon {
     width: 50px;
     margin: .5rem 0;
+    display: block;
 }
 
 footer {
